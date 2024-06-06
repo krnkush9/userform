@@ -1,0 +1,18 @@
+.Home {
+    width: full;
+    height: full;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    gap: 20px;
+    
+}
+
+.homeButton {
+    padding: 6px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;  
+}

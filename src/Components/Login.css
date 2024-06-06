@@ -1,0 +1,37 @@
+.Login{
+    width: 400px;
+    padding: 30px;
+    
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 5px;    
+}
+
+.email, .password{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input{
+    width: 200px;
+    padding: 5px;
+}
+
+.star{
+    color: red;
+}
+
+.loginButton{
+    padding: 6px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}

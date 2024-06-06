@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+Topics: About the Project ?|| How work the project || How to run the project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+About the Project: 
+    This project is created with React JS. In this project, user can do login, registration and update the details. For the design to the project, I used the CSS. There are multiple CSS file of the each components.
 
-In the project directory, you can run:
+Components: There is total 6 components. Following is the name:
+Home, Login, Registration, Dashboard, Update and PrivateRoute.
 
-### `npm start`
+Home Component: There is visible only two button Login and Registration in the Home Components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Login Component: There are two field available in the Login Component such that Email and Password.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Registration Component: There are multiple field available in the Registration Component such that First name, Last name, Country, Mobile, Email etc.
 
-### `npm test`
+Dashboard Component: It displays the user detail and a button i.e. manage your account. When you will go through the registration then it will also display the user details otherwise not.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Update Component: You can update the user details.
 
-### `npm run build`
+PrivateRoute Component: It is a PrivateRoute component. It is used in the login and registration time. When the user want to go the directly dashboard page or update page then the user can not go that page. It is used for the security purpose.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+How work the project:
+    When the project will run then two button will display i.e. Login and Registration Button.
+    If you click on the Login button then you will go Login page where you will enter the Email and Password then you will click on the Login button then you will redirect the Dashboard page. Then you will watch your profile and a Manage your account button if you logged in then there are not show any information of the user. You can manage your details using the Manage your account.
 
-### `npm run eject`
+    When you click on the Registration button then there is open a registration form after filling the form you will jump to the Dashboard page where you will see the your information as well as you can manage your information using the Manage your account button.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    When you will refresh then all the details shall remove.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+How to run the project:-  
+    There are necessary to install a code editor i.e. VS Code or other code editor and then install Node JS for the running the project. 
 
-## Learn More
+    Following are the steps of the project running:
+1.	Clone the project git repo.
+2.	Open the file i.e. Form in VS Code or other code    editor.
+3.	Open the new terminal.
+4.	Install node modules using this command “npm i”.
+5.	Then write again command “npm start” for running the project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
