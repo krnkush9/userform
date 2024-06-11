@@ -1,4 +1,4 @@
-Topics: About the Project ?|| How work the project || How to run the project.
+Topics: About the Project || How work the project || How to run the project
 
 
 About the Project: 
@@ -36,7 +36,7 @@ How to run the project:-
 
     Following are the steps of the project running:
 1.	Clone the project git repo.
-2.	Open the file i.e. Form in VS Code or other code    editor.
+2.	Open the file i.e. userForm in VS Code or other code editor.
 3.	Open the new terminal.
 4.	Install node modules using this command “npm i”.
 5.	Then write again command “npm start” for running the project.
